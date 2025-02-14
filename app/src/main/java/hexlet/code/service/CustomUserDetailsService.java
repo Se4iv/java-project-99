@@ -31,6 +31,8 @@ public class CustomUserDetailsService implements UserDetailsManager {
         var hashedPassword = passwordEncoder.encode(userData.getPassword());
         user.setPasswordDigest(hashedPassword);
 
+        user.setFirstName("John");
+        user.setLastName("Doe");
         userRepository.save(user);
     }
 
