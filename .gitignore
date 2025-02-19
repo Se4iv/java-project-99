@@ -43,3 +43,4 @@ bin/
 
 .idea
 /app/jte-classes
+node_modules/
