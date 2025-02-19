@@ -13,3 +13,5 @@ logging:
   level:
     root: INFO
     web: DEBUG
+sentry:
+  dsn: ""
